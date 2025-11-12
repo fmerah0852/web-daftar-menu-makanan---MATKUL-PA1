@@ -1,29 +1,24 @@
-Web Daftar Menu Makanan - Proyek Mata Kuliah PA1
-Deskripsi Proyek
-Proyek Web Daftar Menu Makanan ini adalah sebuah aplikasi web sederhana yang dibangun menggunakan bahasa pemrograman PHP untuk menampilkan daftar menu makanan secara dinamis. Aplikasi ini dirancang sebagai pemenuhan tugas untuk Mata Kuliah PA1.
+🍽️ Web Daftar Menu Makanan - Proyek Mata Kuliah PA1
 
-Aplikasi ini menyediakan antarmuka publik untuk melihat daftar menu dan dilengkapi dengan panel administrasi (admin) untuk mengelola data menu, termasuk penambahan, pengubahan, dan penghapusan item.
+📝 Deskripsi Proyek
 
-Fitur Utama
-Fitur-fitur utama yang tersedia dalam aplikasi ini meliputi:
+Web Daftar Menu Makanan adalah aplikasi web dinamis sederhana yang berfungsi sebagai katalog menu online. Proyek ini dikembangkan menggunakan PHP murni sebagai pemenuhan tugas untuk Mata Kuliah PA1.
+Aplikasi ini memisahkan dua fungsi utama: Antarmuka Publik untuk menampilkan menu kepada pengguna/pelanggan, dan Panel Administrasi yang dilindungi kata sandi untuk mengelola data menu secara efisien.
 
-Tampilan Menu Publik: Menampilkan semua daftar makanan dan minuman yang tersedia.
+✨ Fitur Utama
+Aplikasi ini menyediakan serangkaian fitur untuk manajemen dan tampilan menu:
+Tampilan Menu Publik: Menampilkan semua daftar makanan dan minuman yang tersedia dalam format yang bersih dan mudah dinavigasi.
+Halaman Detail Menu: Menyajikan informasi komprehensif (deskripsi, harga, dll.) untuk setiap item menu.
+Panel Administrasi (CRUD): Halaman login.php yang aman untuk Administrator mengakses fungsi Create, Read, Update, dan Delete data menu.
+Manajemen Data Menu: Memungkinkan Administrator untuk menambah, mengedit, dan menghapus item menu, termasuk fungsi unggah gambar untuk setiap item.
+Generator QR Code: Integrasi dengan library phpqrcode untuk menghasilkan kode QR yang dapat dihubungkan langsung ke halaman detail item menu atau halaman menu utama.
+Responsif: Desain user-friendly yang memastikan tampilan yang optimal di berbagai perangkat, dari desktop hingga smartphone.
 
-Halaman Detail Menu: Menampilkan informasi rinci untuk setiap item menu.
-
-Panel Administrasi: Halaman khusus untuk masuk (login.php) dan mengelola data menu (CRUD).
-
-Manajemen Data Menu: Administrator dapat menambah, mengedit, atau menghapus item menu, termasuk mengunggah gambar menu.
-
-Generator QR Code: Integrasi dengan phpqrcode untuk kemungkinan pembuatan kode QR bagi setiap item menu atau halaman menu.
-
-Responsif: Desain yang dapat diakses melalui berbagai perangkat.
-
-Teknologi yang Digunakan
-Proyek ini dibangun dengan teknologi web stack tradisional.
-Komponen	Teknologi	Keterangan
-Backend	  PHP	      Bahasa pemrograman utama untuk logika server.
-Database	MySQL	    Digunakan untuk menyimpan data menu, harga, dan informasi admin.
-Frontend	HTML, CSS, JavaScript	Untuk struktur, gaya, dan interaktivitas antarmuka.
-Library Tambahan	phpqrcode	Untuk pembuatan QR Code.
+🛠️ Teknologi yang Digunakan
+Proyek ini dibangun menggunakan stack teknologi web tradisional:
+Komponen,Teknologi,Keterangan
+Backend,PHP,Bahasa pemrograman server-side utama untuk logika bisnis.
+Database,MySQL/MariaDB,"Sistem manajemen database untuk menyimpan data menu, harga, dan kredensial admin."
+Frontend,"HTML, CSS, JavaScript","Digunakan untuk struktur, styling, dan interaktivitas klien."
+Library,phpqrcode,Library untuk menghasilkan gambar QR Code.
 
