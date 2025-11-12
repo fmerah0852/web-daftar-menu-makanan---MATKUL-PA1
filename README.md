@@ -15,10 +15,5 @@ Generator QR Code: Integrasi dengan library phpqrcode untuk menghasilkan kode QR
 Responsif: Desain user-friendly yang memastikan tampilan yang optimal di berbagai perangkat, dari desktop hingga smartphone.
 
 🛠️ Teknologi yang Digunakan
-Proyek ini dibangun menggunakan stack teknologi web tradisional:
-Komponen,Teknologi,Keterangan
-Backend,PHP,Bahasa pemrograman server-side utama untuk logika bisnis.
-Database,MySQL/MariaDB,"Sistem manajemen database untuk menyimpan data menu, harga, dan kredensial admin."
-Frontend,"HTML, CSS, JavaScript","Digunakan untuk struktur, styling, dan interaktivitas klien."
-Library,phpqrcode,Library untuk menghasilkan gambar QR Code.
+Proyek Web Daftar Menu Makanan ini dibangun di atas stack teknologi web tradisional. Sebagai bagian Backend, kami mengandalkan PHP sebagai bahasa pemrograman server-side utama yang menangani semua logika bisnis dan interaksi data. Untuk penyimpanan data, kami menggunakan MySQL/MariaDB, yang berfungsi sebagai sistem manajemen database untuk menyimpan detail menu, harga, dan kredensial administrator. Di sisi Frontend, aplikasi ini menggunakan kombinasi standar HTML, CSS, dan JavaScript untuk menciptakan struktur, gaya, dan interaktivitas bagi pengguna. Terakhir, proyek ini mengintegrasikan library phpqrcode untuk fungsionalitas tambahan dalam menghasilkan gambar QR Code.
 
